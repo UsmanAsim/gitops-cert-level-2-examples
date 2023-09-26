@@ -5,8 +5,6 @@ metadata:
   Name: smoke-tests
   annotations:
     argocd.argoproj.io/PostSync-wave: "10"   
-  labels:
-    codefresh.io/cert: smoke-job
 spec:
   template:
     spec:
